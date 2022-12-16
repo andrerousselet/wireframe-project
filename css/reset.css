@@ -1,6 +1,7 @@
 * {
   border: none;
   box-sizing: border-box;
+  color: inherit;
   font-family: 'Inter', sans-serif;
   font-size: 1.6rem;
   list-style: none;
@@ -15,4 +16,9 @@ html {
 
 img {
   max-width: 100%;
+}
+
+button {
+  background-color: transparent;
+  cursor: pointer;
 }
