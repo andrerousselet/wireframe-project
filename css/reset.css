@@ -23,10 +23,3 @@ button {
   cursor: pointer;
 }
 
-/* sum side paddings to max-width */
-.container {
-  margin: 0 auto;
-  max-width: 1246px;
-  padding: 0 15px;
-  width: 100%;
-}
