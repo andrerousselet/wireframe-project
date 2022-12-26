@@ -1,5 +1,7 @@
 @media(max-width: 1200px) {
-
+  .s-hero .container .text {
+    max-width: 49%;
+  }
 }
 
 @media(max-width: 991px) {
@@ -11,6 +13,22 @@
     display: block;
   }
   
+  .s-hero .container {
+    flex-direction: column;
+  }
+
+  .s-hero .container .text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    max-width: 100%;
+  }
+
+  .s-hero .container .text h1,
+  .s-hero .container .text p  {
+    text-align: center;
+  }
 }
 
 @media(max-width: 768px) {
@@ -22,7 +40,31 @@
 }
 
 @media(max-width: 480px) {
+  html {
+    font-size: 55%;
+  }
+
   header .logo {
     max-width: 13rem;
+  }
+
+  .s-hero {
+    padding: 4rem 0;
+  }
+
+  .s-hero .container .text h1 {
+    font-size: 4.2rem;
+  }
+
+  .s-hero .container .text p {
+    margin-bottom: 3rem;
+  }
+
+  .s-hero .container .image {
+    height: 30rem;
+  }
+
+  .s-hero .container .image img {
+    max-width: 100%;
   }
 }
