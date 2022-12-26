@@ -1,3 +1,5 @@
+/* header style */
+
 header {
   background-color: var(--gray-color-800);
   width: 100%;
@@ -35,4 +37,48 @@ header nav .btn-primary {
 
 header .menu-mobile {
   display: none;
+}
+
+
+/* hero section style */
+
+.s-hero {
+  padding: 7.2rem 0;
+}
+
+.s-hero .container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-hero .container .text {
+  max-width: 64rem;
+  width: 100%;
+}
+
+.s-hero .container .text h1 {
+  margin-bottom: 2rem;
+}
+
+.s-hero .container .text p {
+  color: var(--gray-color-300);
+  font-size: 1.8rem;
+  line-height: 150%;
+  margin-bottom: 5.6rem;
+  max-width: 48.8rem;
+}
+
+.s-hero .container .btn-primary {
+  padding: 2rem 4rem;
+}
+
+.s-hero .container .image {
+  align-items: center;
+  background-color: var(--gray-color-800);
+  display: flex;
+  height: 49.6rem;
+  justify-content: center;
+  max-width: 48.8rem;
+  width: 100%;
 }
