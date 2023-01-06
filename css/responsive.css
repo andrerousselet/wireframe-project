@@ -2,6 +2,14 @@
   .s-hero .container .text {
     max-width: 49%;
   }
+
+  .s-card-feat .cards {
+    width: 100%;
+  }
+
+  .s-card-feat .cards .card {
+    width: 32%;
+  }
 }
 
 @media(max-width: 991px) {
@@ -28,6 +36,27 @@
   .s-hero .container .text h1,
   .s-hero .container .text p  {
     text-align: center;
+  }
+
+  .s-card-feat .cards {
+    flex-direction: column;
+  }
+
+  .s-card-feat .cards .card {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 3rem;
+    margin-bottom: 2rem;
+  }
+
+  .s-card-feat .cards .card .info {
+    max-width: 100%;
+    margin-top: 2rem;
+  }
+
+  .s-card-feat .cards .card:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -66,5 +95,18 @@
 
   .s-hero .container .image img {
     max-width: 100%;
+  }
+
+  .s-card-feat {
+    padding: 4rem 0;
+  }
+
+  .s-card-feat .title p {
+    max-width: 80%;
+    text-align: center;
+  }
+
+  .s-card-feat .main-area {
+    padding-bottom: 4rem;
   }
 }
